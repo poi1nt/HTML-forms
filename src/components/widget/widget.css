@@ -1,0 +1,53 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button_main {
+  position: absolute;
+  top: 250px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  background-color: #dc3545;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+.button_main:hover {
+  background-color: #3a0a0e;
+  transition: 0.5s;
+}
+
+.button_main:active {
+  background-color: #3a0a0e62;
+  transition: 0.2s;
+}
+
+.popover {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: .3rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  width: 200px;
+  z-index: 1000;
+}
+
+.popover-header {
+  padding: .5rem 1rem;
+  margin-bottom: 0;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  font-weight: 500;
+}
+
+.popover-body {
+  padding: 1rem;
+}
